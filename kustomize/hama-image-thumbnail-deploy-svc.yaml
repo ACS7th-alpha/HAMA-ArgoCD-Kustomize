@@ -53,7 +53,7 @@ spec:
             secretKeyRef:
               name: hama-image-thumbnail-sec
               key: AWS_SECRET_ACCESS_KEY
-        image: jangseokhan123/hama-image-thumbnail:1.0
+        image: 192.168.2.76:443/hama/hama-image-thumbnail:1.0
         ports:
         - containerPort: 3003
       restartPolicy: Always

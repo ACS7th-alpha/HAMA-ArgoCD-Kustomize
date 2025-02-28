@@ -41,7 +41,7 @@ spec:
             secretKeyRef:
               name: hama-chat-sec
               key: PERPLEXITY_API_KEY
-        image: jangseokhan123/hama-chat:1.0
+        image: 192.168.2.76:443/hama/hama-chat:1.0
         name: hama-chat
         ports:
         - containerPort: 3009

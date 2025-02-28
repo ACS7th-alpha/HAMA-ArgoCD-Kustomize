@@ -32,7 +32,7 @@ spec:
             configMapKeyRef:
               name: hama-product-config
               key: PORT                
-        image: jangseokhan123/hama-product:1.0
+        image: 192.168.2.76:443/hama/hama-product:1.0
         name: hama-product
         ports:
         - containerPort: 3007

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: hama-frontend
-        image: jangseokhan123/hama-frontend:246
+        image: 192.168.2.76:443/hama/hama-frontend:246
         ports:
         - containerPort: 3000
         env:

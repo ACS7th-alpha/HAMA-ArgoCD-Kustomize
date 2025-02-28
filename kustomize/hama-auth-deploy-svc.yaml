@@ -66,7 +66,7 @@ spec:
             secretKeyRef:
               name: hama-auth-sec
               key: GOOGLE_CLIENT_SECRET
-        image: jangseokhan123/hama-auth:1.0
+        image: 192.168.2.76:443/hama/hama-auth:1.0
         name: hama-auth
         ports:
         - containerPort: 3001
