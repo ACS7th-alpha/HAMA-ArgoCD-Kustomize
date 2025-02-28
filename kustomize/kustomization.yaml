@@ -12,4 +12,4 @@ resources:
   - hama-shoppingcart-deploy-svc.yaml
 images:
   - name: 192.168.2.76:443/hama/hama-frontend
-    newTag: "latest"  # GitHub Actions가 이 값을 `BUILD_NUMBER`로 업데이트 
+    newTag: ""
