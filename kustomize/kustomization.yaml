@@ -12,4 +12,4 @@ resources:
   - hama-shoppingcart-deploy-svc.yaml
 images:
   - name: 192.168.2.76:443/hama/hama-frontend
-    newTag: "283"
+    newTag: "285"
